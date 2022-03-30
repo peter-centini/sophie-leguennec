@@ -11,7 +11,7 @@
   z-index: 20;
 }
 .phone{
-    position: absolute;
+  position: absolute;
     display: flex;
     flex-direction: row;
     margin-left: -423vh;
@@ -20,13 +20,12 @@
 }
 
 .mail{
-   align-items: center;
-  justify-content: space-around;
-  flex-direction:column;
-		max-width: 14vh;
-		font-size: 6px;
-    padding-left: 8px;
-    margin-top: 12px;
+    width: 56%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-right: 415px;
+    top: 5px;
 }
 
 .mobile{

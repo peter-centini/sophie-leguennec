@@ -21,7 +21,8 @@ function Navbar() {
 
         <nav className="navbar">
             <div className="phone">
-            <FaMobileAlt size={15} classeName="mobile"/><p className="mobile"> 00.00.00.00.00</p>
+                <FaMobileAlt size={15} classeName="mobile" /><p className="mobile"> 00.00.00.00.00</p></div>
+                <div className="mail">
             <VscMail size={25} className="mail"/> <p className="mail"> petermoto@free.fr</p>
            </div>
             <div className="navbar_container">
