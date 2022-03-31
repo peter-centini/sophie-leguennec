@@ -20,11 +20,13 @@ function Navbar() {
     return (
 
         <nav className="navbar">
-            <div className="phone">
-                <FaMobileAlt size={15} classeName="mobile" /><p className="mobile"> 00.00.00.00.00</p></div>
+            <header className="navbar-header">
+                <div className="phone">
+                <FaMobileAlt size={15} classeName="phone" /><p className="phonetext"> 00.00.00.00.00</p></div>
                 <div className="mail">
-            <VscMail size={25} className="mail"/> <p className="mail"> petermoto@free.fr</p>
-           </div>
+                <VscMail size={20} className="mail"/> <p className="mailtext"> petermoto@free.fr</p>
+                </div>
+            </header>
             <div className="navbar_container">
                 <NavLink exact to="/" className="navbar_logo">
                     <img className="logo" src={Logo} alt="Logo" />

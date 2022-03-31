@@ -10,32 +10,34 @@
   top:0;
   z-index: 20;
 }
+
+.navbar-header{
+  display: flex;
+    justify-content: flex-start;
+    margin-top: -38px;
+    margin: 99px;
+    position: relative;
+    margin-right: -333px;
+    top: -28px;
+}
 .phone{
-  position: absolute;
-    display: flex;
-    flex-direction: row;
-    margin-left: -423vh;
-    top: 5px;
-    padding-left: 48px;
+  display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 0.9rem;
+    position: relative;
+    margin-right: 5px;
 }
 
 .mail{
-    width: 56%;
-    position: absolute;
     display: flex;
-    flex-direction: row;
-    margin-right: 415px;
-    top: 5px;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    margin-right: 5px;
 }
 
-.mobile{
-  align-items: center;
-  justify-content: space-around;
-  flex-direction:column;
-		max-width: 14vh;
-		font-size: 6px;
-    padding-left: 8px;
-    margin-top: 12px;
+.phonetext,.mailtext{
+  color: #DB5AA7;
 }
 
 .navbar_container {
