@@ -11,7 +11,7 @@
   z-index: 20;
 }
 
-.navbar-header{
+.navbar_header{
   display: flex;
     justify-content: flex-start;
     margin-top: -38px;
@@ -37,7 +37,7 @@
 }
 
 .phonetext,.mailtext{
-  color: #DB5AA7;
+  color: var(--icontxt_color);
 }
 
 .navbar_container {
@@ -69,7 +69,7 @@
     text-decoration: none;
     margin-left: 10px;
     font-size: 14px;
-    font-family: var(--second-font);
+    font-family: var(--second_font);
     color: var(--black_color);
 }
 
@@ -112,7 +112,7 @@
       right: 110%;
       transition: all 0.5s ease;
     }
-  
+   
     .navbar_menu.active {
       background: var(--white_color);
       left: 30%;
@@ -189,7 +189,10 @@
       right: 110%;
       transition: all 0.5s ease;
     }
-  
+    .navbar_header{
+      display: none;
+      
+    }
     .navbar_logo {
       margin-left: 0px;
     }

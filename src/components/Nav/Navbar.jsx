@@ -20,7 +20,7 @@ function Navbar() {
     return (
 
         <nav className="navbar">
-            <header className="navbar-header">
+            <header className="navbar_header">
                 <div className="phone">
                 <FaMobileAlt size={15} classeName="phone" /><p className="phonetext"> 00.00.00.00.00</p></div>
                 <div className="mail">

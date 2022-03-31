@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
 
 :root {
@@ -15,10 +16,11 @@
   --white_color: #FFFFFF;
   --grey_color: #B7B4B3 ;
   --black_color: #000000;
+  --icontxt_color: #DB5AA7;
 
-  --main-font: "Roboto";
-  --second-font: "Comic Neue";
-  --third-font: "PT Sans";
+  --main_font: "Roboto";
+  --second_font: "Comic Neue";
+  --third_font: "PT Sans";
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
