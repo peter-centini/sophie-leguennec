@@ -18,10 +18,14 @@
   --black_color: #000000;
   --icontxt_color: #DB5AA7;
 
-  --main_font: "Roboto";
-  --second_font: "Comic Neue";
-  --third_font: "PT Sans";
+  --Roboto_font: "Roboto";
+  --Comic_Neue_font: "Comic Neue";
+  --PT_Sans_font: "PT Sans";
+  --Montserrat_400_font:"Montserrat";
+  --Montserrat_700_font:"Montserrat";
+
 }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
 

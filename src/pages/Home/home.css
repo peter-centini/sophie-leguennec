@@ -9,12 +9,15 @@
     width: 94vw;
     height: 100%;
     margin-left: 41px;
-    margin-top: 30px;
+    margin-top: 45px;
+    border-radius: 7px;
+    -webkit-box-shadow: 2px 4px 7px 2px rgba(0,0,0,0.71); 
+    box-shadow: 1px 3px 6px 2px rgba(0,0,0,0.80);
 }
 .desc{
-    font-family: var(--main_font);
+    font-family: var(--Montserrat_700_font);
     font-style: normal;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 30px;
     text-align: center;
     margin-top: 13vh;
@@ -26,6 +29,8 @@
     margin-top: 5vh;
     margin-left: auto;
     margin-right: auto;
+    -webkit-box-shadow: 2px 4px 7px 2px rgba(0,0,0,0.71); 
+    box-shadow: 1px 2px 8px 1px rgba(0,0,0,0.71);
 }
 
 .text_desc{
@@ -39,6 +44,7 @@
 .text_Home{
     align-items:center;
     align-content: center;
+    font-family: var(--Montserrat_700_font);
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -51,14 +57,25 @@
     /* background-color: red; */
 }
 .btn{
-    
     align-items:center;
     align-content: center;
     background: #A1D1E7;
     border-radius: 30px;    
     width: 211px;
     height: 44px;
-    left: 614px;
     top: 745px;
     margin: 6px 40% 20% 43% ;
+    margin-left: 41vw;
+    -webkit-box-shadow: 2px 4px 7px 2px rgba(0,0,0,0.71); 
+    box-shadow: 2px 4px 7px 2px rgba(0,0,0,0.71);
+}
+
+.trait_footer{
+     border-top: 2px solid var(--icontxt_color);
+     width : 450px;
+    margin-top: -30vh;
+     margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 2px 4px 7px 2px rgba(0,0,0,0.71); 
+    box-shadow: 1px 2px 8px 1px rgba(0,0,0,0.71);
 }

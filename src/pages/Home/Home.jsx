@@ -20,7 +20,8 @@ export default function Home() {
         </p>
         
       </div>
-       <button className="btn"><Link to={<Infos /> }>En Savoir PLus </Link></button>
+      <button className="btn"><Link to="/infos">En Savoir PLus </Link></button>
+       <div className="trait_footer"></div>
      </div>
   )
 }
