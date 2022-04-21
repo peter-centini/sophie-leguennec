@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import Logo from '../../asset/Logo.png';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css';
-import MobileScreenShareIcon from '@mui/icons-material/MobileScreenShare';
 import { FaMobileAlt } from "react-icons/fa"
 import { VscMail } from 'react-icons/vsc';
 

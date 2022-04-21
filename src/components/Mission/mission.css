@@ -1,8 +1,7 @@
 .container_maMission {
     width: auto;
     height: 900px;
-
-
+    display:flex;
 }
 
 .mamission_desc {
@@ -18,17 +17,18 @@
     font-weight: 600;
     font-size: 25px;
     line-height: 30px;
-    margin-top: -45px;
+    margin-top: 45px;
+    margin-bottom: 45px;
     text-align: center;
 }
 
 .trait_dessous {
     border-top: 2px solid var(--icontxt_color);
     width: 500px;
-    /*margin: 50px 50px; */
-    margin-top: 5vh;
+    margin: 50px 50px;
+    /* margin-top: 20px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
     -webkit-box-shadow: 2px 4px 7px 2px rgba(0, 0, 0, 0.71);
     box-shadow: 1px 2px 8px 1px rgba(0, 0, 0, 0.71);
 }
@@ -37,7 +37,7 @@
     margin-top: 30px;
     display: flex;
     justify-content: space-around;
-    height: 300px;
+    flex-direction: inline;
 
 }
 
@@ -52,19 +52,19 @@
 }
 
 .textMission {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
     font-family: var(--Montserrat_700_font);
-    line-height: 26.82px;
+    line-height: 32px;
     text-align: center;
 }
 
 .image {
-    width: 94vw;
+    width: 90%;
     height: 100%;
     border-radius: 7px;
     margin: 5px 1px;
-    margin-top: 120px;
+    margin-top: 90px;
     position: relative;
     text-align: center;
     color: white;
@@ -72,18 +72,18 @@
 
 .texte_centrer {
     position: absolute;
-    top: 60%;
+    top: 73%;
     left: 50%;
     font-size: 34px;
     transform: translate(-50%, -50%);
     font-family: var(--Montserrat_700_font);
     font-weight: bold;
-    line-height: 36px;
+    line-height: 73px;
 }
 
 .signature {
     position: absolute;
-    top: 85%;
+    top: 115%;
     left: 75%;
     font-size: 34px;
     transform: translate(-80%, -80%);
