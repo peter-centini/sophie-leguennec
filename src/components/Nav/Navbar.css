@@ -210,6 +210,7 @@
       opacity: 1;
       right: 110%;
       transition: all 0.5s ease;
+      margin-left: 94px;
     }
     .navbar_header{
       display: none;
@@ -245,7 +246,7 @@
     .BurgerMenu__container {
       display: flex;
       flex-direction: column;
-       margin-right: -100px;
+       margin-right: -200px;
     }
       
       i {

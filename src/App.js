@@ -21,6 +21,7 @@ function App() {
         <Route path="/Contact" element={<Contact />} />
       </Routes>
       <ScrollToTop
+       border-radius= "50%"
         top="450"
         smooth
         color="#DB5AA7"
