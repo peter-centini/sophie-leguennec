@@ -14,17 +14,19 @@
   --fifth_color: #B1E4E3;
   --sixth_color: #BDE9C9;
   --white_color: #FFFFFF;
-  --grey_color: #B7B4B3 ;
+  --grey_color: #B7B4B3;
   --black_color: #000000;
   --icontxt_color: #DB5AA7;
+  --btn_color: #DB5AA7;
 
   --Roboto_font: "Roboto";
   --Comic_Neue_font: "Comic Neue";
   --PT_Sans_font: "PT Sans";
-  --Montserrat_400_font:"Montserrat";
-  --Montserrat_700_font:"Montserrat";
+  --Montserrat_400_font: "Montserrat";
+  --Montserrat_700_font: "Montserrat";
 
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');

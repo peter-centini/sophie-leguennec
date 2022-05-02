@@ -1,0 +1,69 @@
+.container_img_proceder {
+    height: 100%;
+}
+
+.img_aide {
+    width: 94vw;
+    height: 100%;
+    margin-left: 32px;
+    margin-top: 45px;
+    border-radius: 7px;
+    object-fit: cover;
+}
+
+
+.container_scroll_txt {
+  overflow: hidden;
+  display: flex;
+  /* Fonctionne avec toutes les tailles */
+  width: 1000%;
+  position: absolute;
+  top: 100%;
+  transform: translateY(-100%);
+  background:red;
+  /* pour rotate on enlève le translate et on rajoute le rotate */
+  /* transform:  rotate(90deg); */
+}
+.txt {
+  white-space: nowrap;
+  font-size: 38px;
+  animation: scrollTxt 5s linear infinite;
+  /* animation: scrollTxt 3s linear 1s infinite running slidein; */
+}
+
+
+.t1 {
+ margin-right: 30px;
+ color: blue;
+}
+.t2 {
+   margin-right: 30px;
+   color: yellow; 
+}
+.t3{
+  margin-right: 30px;
+  color: green;
+}
+.t4{
+  margin-right: 30px;
+  color: tomato;
+}
+.t5{
+  margin-right: 30px;
+  color: saddlebrown;
+}
+.t6{
+  margin-right: 30px;
+  color: yellowgreen;
+}
+@keyframes scrollTxt {
+  0%{
+    transform: translate(-100%, 0);
+  }
+  100% {
+    transform: translate(0%, 0);
+  }
+}
+.txt_defile{
+  display: flex;
+}

@@ -1,6 +1,8 @@
 import React from "react";
 import "./mission.css";
 import AccueilMission from "../../asset/accueilMission.png";
+import { Link } from "react-router-dom"
+
 
 export default function Mission() {
   return (
@@ -48,7 +50,12 @@ export default function Mission() {
           </div>
           <div class="signature">Confusus.</div>
         </div>
+        <div className="btn_double">
+        <button className="btn_process"><Link to="/Proceder">Comment je procéde</Link></button>
+         <button className="btn_message"><Link to="/contact">Me Contacter</Link></button>
       </div>
+      </div>
+      
     </div>
   );
 }
