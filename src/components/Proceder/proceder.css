@@ -1,69 +1,80 @@
 .container_img_proceder {
-    height: 100%;
+  height: 100%;
 }
 
 .img_aide {
-    width: 94vw;
-    height: 100%;
-    margin-left: 32px;
-    margin-top: 45px;
-    border-radius: 7px;
-    object-fit: cover;
+  width: 94vw;
+  height:100%;
+  margin: 45px -10% 10% 2%;
+  /* margin-left: 32px;
+    margin-top: 45px; */
+  border-radius: 7px;
+  object-fit: cover;
 }
 
-
-.container_scroll_txt {
-  overflow: hidden;
-  display: flex;
-  /* Fonctionne avec toutes les tailles */
-  width: 1000%;
-  position: absolute;
-  top: 100%;
-  transform: translateY(-100%);
-  background:red;
-  /* pour rotate on enlève le translate et on rajoute le rotate */
-  /* transform:  rotate(90deg); */
-}
-.txt {
+.container_scroll_txt, txt {
+  width: 1161px;
+  height: 80px;
+  margin: 48px 53px -24px 32px;
   white-space: nowrap;
-  font-size: 38px;
-  animation: scrollTxt 5s linear infinite;
-  /* animation: scrollTxt 3s linear 1s infinite running slidein; */
+  margin-top: 60px;
+  background-color: yellowgreen;
+  display: flex;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  width: auto;
+  overscroll-behavior-x: contain;
+
 }
 
+.scroll {
+  animation: txt 7s linear infinite running;
+  background-color: turquoise;
+  overscroll-behavior-inline: contain;
+}
 
-.t1 {
- margin-right: 30px;
- color: blue;
+.container_scroll_txt span {
+  font-size: 28px;
+  margin: 20px;
+
 }
-.t2 {
-   margin-right: 30px;
-   color: yellow; 
+
+span:nth-child(2) {
+  color: var(--icontxt_color);
 }
-.t3{
-  margin-right: 30px;
-  color: green;
+
+span:nth-child(4) {
+  color: var(--icontxt_color);
 }
-.t4{
-  margin-right: 30px;
-  color: tomato;
+
+span:nth-child(6) {
+  color: var(--icontxt_color);
 }
-.t5{
-  margin-right: 30px;
-  color: saddlebrown;
-}
-.t6{
-  margin-right: 30px;
-  color: yellowgreen;
-}
-@keyframes scrollTxt {
-  0%{
-    transform: translate(-100%, 0);
+
+@keyframes txt {
+  0% {
+    transform: translate(-144px, 0);
   }
   100% {
-    transform: translate(0%, 0);
+    transform: translate(100%, 0);
   }
 }
-.txt_defile{
-  display: flex;
+@media  screen and (max-width: 768px){
+  .container_img_pro{
+    width:100%;
+    display:block;
+    justify-content: center;
+    align-items: center;
+  }
+  .img_aide{
+    width:94vw;
+    max-width : 100%;
+    height : auto;
+    margin: 5% 0 50% 2%;
+  }
+  
 }

@@ -94,8 +94,10 @@
 
 .second_img {
     object-fit: cover;
-    width: 1354px;
-    height: 417px;
+    /* width: 1354px;
+    height: 417px; */
+    width: 94vw;
+    height: 371px;
     margin-left: 32px;
     margin-top: 45px;
 	margin-bottom: 90px;
