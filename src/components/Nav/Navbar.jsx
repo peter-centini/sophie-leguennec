@@ -21,9 +21,9 @@ function Navbar() {
         <nav className="navbar">
             <header className="navbar_header">
                 <div className="phone">
-                <FaMobileAlt size={15} classeName="phone" /><p className="phonetext"> 00.00.00.00.00</p></div>
+                <FaMobileAlt size={15} classeName="phone_svg" /><p className="phonetext"> 00.00.00.00.00</p></div>
                 <div className="mail">
-                <VscMail size={20} className="mail"/> <p className="mailtext"> petermoto@free.fr</p>
+                <VscMail size={20} className="mail_svg"/> <p className="mailtext"> petermoto@free.fr</p>
                 </div>
             </header>
             <div className="navbar_container">

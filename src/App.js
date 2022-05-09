@@ -7,6 +7,7 @@ import Contact from './pages/contact/Contact';
 import Home from './pages/Home/Home';
 import Infos from './pages/information/Infos';
 import ScrollToTop from "react-scroll-to-top"
+import Footer from "./components/Footer/Footer"
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         color="#DB5AA7"
         // viewBox="0 0 24 24"
       />
+      <Footer />
     </div>
   );
 }

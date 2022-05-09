@@ -1,6 +1,6 @@
 .navbar {
   width: 100%;
-  height: 80px;
+  height: 128px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,6 +21,9 @@
     margin-right: -333px;
     top: -28px;
 }
+.phone_svg{
+}
+
 .phone{
   display: flex;
     justify-content: space-between;
@@ -28,6 +31,8 @@
     font-size: 0.9rem;
     position: relative;
     margin-right: 5px;
+}
+.mail—svg{
 }
 
 .mail{
