@@ -33,14 +33,16 @@ function Contact() {
       </div>
 
       <div className="container_contact_carte">
-        <div className="form_contat"></div>
+                <div className="form_contat">
+                    <label htmlFor="">Votre nom</label>
+        </div>
         <div className="container_carte">
           <iframe
             className="carte_google"
             title="This is a unique title"
             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1380.1740414014628!2d-0.9224137487887996!3d46.22342219098342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1652196080256!5m2!1sfr!2sfr"
-            width="350"
-            height="300"
+            width="450"
+            height="400"
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
