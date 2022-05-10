@@ -7,7 +7,7 @@ export default function Mission() {
   return (
     <div className="container_maMission">
       <div className="mamission_desc">
-        <h1 className="titlte_mission">Ma Mission</h1>
+        <p className="titlte_mission">Ma Mission</p>
         <div className="trait_dessous"></div>
         <div className="mission">
           <div className="mission_text_1">

@@ -12,3 +12,7 @@
     color: white;
     margin-top: 50px;
 }
+
+h3,p,span{
+     margin-left: 4px;
+}
