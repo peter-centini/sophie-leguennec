@@ -96,15 +96,27 @@ a:hover {
     display: flex;
 }
 .formulaire{
-    display: flex;
 }
-.first_form label input{
-    width: auto;
-    height: auto;
-    display: flex;
+.div_left{
+    background-color: red;
 }
-.first_form{
-    align-items: flex-end;
+.div_left,.input_div_left,.label_div_left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.div_right,.input_div_right,.label_div_right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* flex-direction: row; */
+}
+.div_right{
+     background-color: blueviolet;
+
 }
 
 legend{

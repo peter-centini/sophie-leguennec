@@ -32,49 +32,49 @@ function Contact() {
         <div className="form_contact">
           <form className="formulaire" action="https://formsubmit.co/petermoto@free.fr" method="POST">
             <legend>Formulaire</legend>
-            <div className="first_form">
-            <label className="firstName" htmlFor="firstName">
+            <div className="div_left">
+            <label className="label_div_left" htmlFor="firstName">
               Votre nom
             </label>
             <input
               type="text"
               name="firstName"
-              className="firstName"
+              className="input_div_left"
               placeholder="Votre Nom"
               required
               maxLength={30}
             />
-            <label className="lastName" htmlFor="lastName">
+            <label className="label_div_left" htmlFor="lastName">
               Votre Prénom
             </label>
             <input
               type="text"
               name="lastName"
-              className="lastName"
+              className="input_div_left"
               placeholder="Votre Prénom"
               required
               maxLength={30}
               />
             </div>
-            <div className="second_form">
-            <label className="phone" htmlFor="phone">
+            <div className="div_right">
+            <label className="label_div_right" htmlFor="phone">
               Téléphonne
             </label>
             <input
               type="txt"
               name="phone"
-              className="phone"
+              className="input_div_right"
               placeholder="Ex: 01 02 03 04 05"
               required
               maxLength={20}
             />
-            <label className="email" htmlFor="email">
+            <label className="label_div_right" htmlFor="email">
               Email
             </label>
             <input
               type="email"
               name="email"
-              className="email"
+              className="input_div_right"
               placeholder="Votre Adresse Email"
               maxLength={20}
               required
@@ -99,6 +99,7 @@ function Contact() {
             </button>
           </form>
         </div>
+       
 
         <div className="container_carte">
           <iframe
