@@ -1,6 +1,6 @@
-.container_home{
+.container_home {
     width: 100%;
-    height:100%;
+    height: 100%;
 }
 
 .container_img {
@@ -165,7 +165,8 @@
     .second_picture {
         display: none;
     }
-     .btn {
+
+    .btn {
         margin: 5% 50%;
     }
 }

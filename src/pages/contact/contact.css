@@ -1,8 +1,9 @@
-.container_info{
+.container_info {
     width: 100%;
     height: 100%;
 }
-.contactez_moi{
+
+.contactez_moi {
     display: flex;
     /* background-color: brown; */
     align-items: center;
@@ -14,18 +15,22 @@
     font-size: 28px;
     margin-top: 2%;
 }
-.txt_info{
+h1{
+    color:var(--icontxt_color)
+}
+
+.txt_info {
     /* background-color: aquamarine; */
     text-align: center;
     line-height: 40px;
     display: flex;
     align-items: center;
     width: 80%;
-    font-size:28px; 
+    font-size: 28px;
     margin: 15% auto;
 }
 
-.icon_contact{
+.icon_contact {
     width: 100%;
     height: 90%;
     margin-top: 5%;
@@ -36,39 +41,44 @@
     /* background-color: rgb(227, 203, 51); */
 }
 
-.mail_contact{
+.mail_contact {
     /* background-color: aquamarine; */
     align-items: center;
     font-size: 28px;
 }
 
- a {
+a {
     color: black;
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     color: var(--icontxt_color);
 }
-.mail_icon{
-    margin:auto 40%;
+
+.mail_icon {
+    margin: auto 40%;
     width: 70px;
     height: 70px;
 }
-.phone_contact{
+
+.phone_contact {
     /* background-color: aquamarine; */
     align-items: center;
     font-size: 28px;
 }
-.phone_contact p:hover{
-    color:var(--icontxt_color);
+
+.phone_contact p:hover {
+    color: var(--icontxt_color);
 }
 
-.phone_icon{
+.phone_icon {
     margin-left: 27%;
     width: 70px;
     height: 70px;
 }
-.container_contact_carte{
+
+.container_contact_carte {
     width: 100%;
     height: 100%;
     display: flex;
@@ -76,18 +86,47 @@ a:hover{
     justify-content: space-between;
     background-color: aqua;
 }
-.form_contat{
+
+.form_contact {
     width: 450px;
-    height: 400px;
-    background-color: rgb(239, 161, 226);
-    margin-left:126px;
+    height: auto;
+    background-color: rgb(230, 189, 223);
+    margin-left: 126px;
     margin-top: 10%;
+    display: flex;
 }
-.container_carte{
+.formulaire{
+    display: flex;
+}
+.first_form label input{
+    width: auto;
+    height: auto;
+    display: flex;
+}
+.first_form{
+    align-items: flex-end;
+}
+
+legend{
+    font-family: var(--Montserrat_700_font);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color:var(--icontxt_color);
+    margin-bottom: 5%;
+}
+.txt_message{
+    margin-top:10%;
+}
+
+.container_carte {
     background-color: rgb(187, 255, 127);
-   margin:10%;
+    margin: 10%;
 }
-.carte_google{
+
+.carte_google {
     /* justify-content: space-between;
     align-items: center; */
 }

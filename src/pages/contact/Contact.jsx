@@ -1,12 +1,10 @@
 import React from "react";
 import "./contact.css";
-import { Link } from "react-router-dom";
 import Mail from "../../asset/icon/email-1.png";
 import phone from "../../asset/icon/phone-1.png";
 
 function Contact() {
-
-    return (
+  return (
     <div className="container_info">
       <div className="contactez_moi">
         <h1>Contactez-moi</h1>
@@ -21,9 +19,7 @@ function Contact() {
         <div className="mail_contact">
           <img src={Mail} alt="" className="mail_icon" />
           <p>
-            <a  href="mailto:leguennec.s@hotmail.fr">
-              leguennec.s@hotmail.fr
-            </a>
+            <a href="mailto:leguennec.s@hotmail.fr">leguennec.s@hotmail.fr</a>
           </p>
         </div>
         <div className="phone_contact">
@@ -33,9 +29,77 @@ function Contact() {
       </div>
 
       <div className="container_contact_carte">
-                <div className="form_contat">
-                    <label htmlFor="">Votre nom</label>
+        <div className="form_contact">
+          <form className="formulaire" action="https://formsubmit.co/petermoto@free.fr" method="POST">
+            <legend>Formulaire</legend>
+            <div className="first_form">
+            <label className="firstName" htmlFor="firstName">
+              Votre nom
+            </label>
+            <input
+              type="text"
+              name="firstName"
+              className="firstName"
+              placeholder="Votre Nom"
+              required
+              maxLength={30}
+            />
+            <label className="lastName" htmlFor="lastName">
+              Votre Prénom
+            </label>
+            <input
+              type="text"
+              name="lastName"
+              className="lastName"
+              placeholder="Votre Prénom"
+              required
+              maxLength={30}
+              />
+            </div>
+            <div className="second_form">
+            <label className="phone" htmlFor="phone">
+              Téléphonne
+            </label>
+            <input
+              type="txt"
+              name="phone"
+              className="phone"
+              placeholder="Ex: 01 02 03 04 05"
+              required
+              maxLength={20}
+            />
+            <label className="email" htmlFor="email">
+              Email
+            </label>
+            <input
+              type="email"
+              name="email"
+              className="email"
+              placeholder="Votre Adresse Email"
+              maxLength={20}
+              required
+              /> 
+              </div>
+            <div>
+            <label htmlFor="message">Votre méssage :</label>
+            <textarea
+              className="txt_message"
+              name="message"
+              cols="30"
+              rows="10"
+              placeholder="Votre Message"
+              required
+              ></textarea>
+              </div>
+            <button
+              className="btn_submit"
+              type="submit"
+              value="Send">
+              Envoyer
+            </button>
+          </form>
         </div>
+
         <div className="container_carte">
           <iframe
             className="carte_google"

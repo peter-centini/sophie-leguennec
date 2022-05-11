@@ -3,6 +3,7 @@ import "./proceder.css";
 import Aide from "../../asset/JeVousAideDesk.png";
 import Zen from "../../asset/icon/zen 2.png";
 import { Link } from "react-router-dom";
+import Marquee from "react-fast-marquee";
 
 function Proceder() {
   return (
@@ -10,16 +11,23 @@ function Proceder() {
       <div className="container_img_pro">
         <img className="img_aide" src={Aide} alt="aide-description" />
       </div>
+      <div className="trait_sup"></div>
       <div className="container_scroll_txt">
-        <div className="scroll">
+        <Marquee
+          direction="right"
+          pauseOnHover="true"
+          gradien="false"
+          speed="100"
+        >
           <span className="txt t1">Bienveillance </span>
           <span className="t2"> Confidentalité </span>
           <span className="t3"> Authenticité </span>
           <span className="t4"> Écoute </span>
           <span className="t5"> Compréhension </span>
           <span className="txt t6"> Objectifs </span>
-        </div>
+        </Marquee>
       </div>
+      <div className="trait_inf"></div>
       <div className="explanation_proceder">
         <p className="txt_explanation_title">
           Pour y <span>arriver</span> , nous utiliserons les{" "}

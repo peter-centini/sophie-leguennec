@@ -1,7 +1,7 @@
 .container_maMission {
     width: 100%;
     height: 100%;
-    display:flex;
+    display: flex;
 }
 
 .mamission_desc {
@@ -92,23 +92,25 @@
     font-weight: bold;
     line-height: 36px;
 }
-.btn_double{
+
+.btn_double {
     width: 80%;
-    height:80%;
+    height: 80%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding:5px;
+    padding: 5px;
     margin-bottom: 100px;
     margin: 50px 50px;
 }
-.btn_process,.btn_message{
+
+.btn_process, .btn_message {
     background-color: var(--btn_color);
     border-radius: 30px;
-    font-size:18px;
-	font-family: var(--Montserrat_400_font);
-     width: 211px;
+    font-size: 18px;
+    font-family: var(--Montserrat_400_font);
+    width: 211px;
     height: 44px;
     margin: 10px 10px;
 }
