@@ -29,85 +29,97 @@ function Contact() {
       </div>
 
       <div className="container_contact_carte">
-        <div className="form_contact">
-          <form className="formulaire" action="https://formsubmit.co/petermoto@free.fr" method="POST">
+        <div className="contactForm">
+          <form
+            action="https://formsubmit.co/   petermoto@free.fr"
+            method="POST"
+          >
             <legend>Formulaire</legend>
-            <div className="div_left">
-            <label className="label_div_left" htmlFor="firstName">
-              Votre nom
-            </label>
-            <input
-              type="text"
-              name="firstName"
-              className="input_div_left"
-              placeholder="Votre Nom"
-              required
-              maxLength={30}
-            />
-            <label className="label_div_left" htmlFor="lastName">
-              Votre Prénom
-            </label>
-            <input
-              type="text"
-              name="lastName"
-              className="input_div_left"
-              placeholder="Votre Prénom"
-              required
-              maxLength={30}
-              />
+
+            <div className="formBox">
+              <div class="inputBox w50">
+                <label htmlFor="firstName">Nom</label>
+                <input
+                  type="text"
+                  name="firstName"
+                  className="input_left"
+                  placeholder="Votre Nom"
+                  required
+                  maxLength={30}
+                />
+              </div>
+
+              <div class="inputBox w50">
+                <label htmlFor="lastName">Prénom</label>
+                <input
+                  type="text"
+                  name="lastName"
+                  className="input_left"
+                  placeholder="Votre Prénom"
+                  required
+                  maxLength={30}
+                />
+              </div>
+
+              <br />
+              <br />
+
+              <div class="inputBox w50">
+                <label htmlFor="phone">Téléphonne</label>
+                <input
+                  type="txt"
+                  name="phone"
+                  className="input_div_right"
+                  placeholder="Ex: 01 02 03 04 05"
+                  required
+                  maxLength={20}
+                />
+              </div>
+
+              <div class="inputBox w50">
+                <label htmlFor="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  className="input_div_right"
+                  placeholder="Votre Adresse Email"
+                  maxLength={20}
+                  required
+                />{" "}
+              </div>
+
+              <br />
+              <br />
+              <div class="inputBox w50">
+                <label htmlFor="message">Votre méssage :</label>
+                <textarea
+                  className="txt_message"
+                  name="message"
+                  cols="30"
+                  rows="10"
+                  placeholder="Votre Message"
+                  required
+                ></textarea>
+
+                <button className="btn_submit" type="submit" value="Send">
+                  Envoyer
+                </button>
+              </div>
             </div>
-            <div className="div_right">
-            <label className="label_div_right" htmlFor="phone">
-              Téléphonne
-            </label>
-            <input
-              type="txt"
-              name="phone"
-              className="input_div_right"
-              placeholder="Ex: 01 02 03 04 05"
-              required
-              maxLength={20}
-            />
-            <label className="label_div_right" htmlFor="email">
-              Email
-            </label>
-            <input
-              type="email"
-              name="email"
-              className="input_div_right"
-              placeholder="Votre Adresse Email"
-              maxLength={20}
-              required
-              /> 
-              </div>
-            <div>
-            <label htmlFor="message">Votre méssage :</label>
-            <textarea
-              className="txt_message"
-              name="message"
-              cols="30"
-              rows="10"
-              placeholder="Votre Message"
-              required
-              ></textarea>
-              </div>
-            <button
-              className="btn_submit"
-              type="submit"
-              value="Send">
-              Envoyer
-            </button>
           </form>
         </div>
-       
 
-        <div className="container_carte">
+        
+          <div className="legend_carte">
+              <p >Me Trouver</p>
+          </div>
+   <div className="container_carte">
           <iframe
             className="carte_google"
             title="This is a unique title"
             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1380.1740414014628!2d-0.9224137487887996!3d46.22342219098342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1652196080256!5m2!1sfr!2sfr"
-            width="450"
-            height="400"
+            width="600"
+            height="460"
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
