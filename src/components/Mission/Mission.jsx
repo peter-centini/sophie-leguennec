@@ -51,10 +51,10 @@ export default function Mission() {
         </div>
         <div className="btn_double">
           <button className="btn_process">
-            <Link to="/Proceder">Comment je procéde</Link>
+            <Link id="send_me_contacter" to="/Proceder">Comment je procéde</Link>
           </button>
-          <button className="btn_message">
-            <Link to="/contact">Me Contacter</Link>
+          <button className="btn_message" >
+            <Link id="send_me_contacter" to="/contact">Me Contacter</Link>
           </button>
         </div>
       </div>

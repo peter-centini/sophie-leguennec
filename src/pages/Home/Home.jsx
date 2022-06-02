@@ -40,7 +40,7 @@ export default function Home() {
         </div>
 
         <button className="btn_contact">
-          <Link to="/contact">Prendre contact</Link>
+          <Link id="btn_contact_home" to="/contact">Prendre contact</Link>
         </button>
       </div>
     </div>

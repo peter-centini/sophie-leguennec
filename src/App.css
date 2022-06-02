@@ -5,6 +5,10 @@
   text-decoration: none;
   list-style: none;
 }
+a:hover {
+    color: black;
+    text-decoration: none;
+}
 
 :root {
   --main_color: #2C9199;

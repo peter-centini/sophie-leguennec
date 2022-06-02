@@ -84,7 +84,7 @@ a:hover {
     display: flex;
     margin-top:10%;
     justify-content: space-between;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 .contactForm{
     display:flex;
@@ -97,7 +97,7 @@ a:hover {
   justify-content: space-between;
   flex-wrap: wrap;
   margin-left: 10%;
-  background-color: pink;
+  /* background-color: pink; */
   margin-top: 6%;
   margin-left:20%;
   width:600px;
@@ -116,9 +116,16 @@ a:hover {
   width: 100%;
   height: 37px;
   font-size: 18px;
+  border: 1px solid #DB5AA7;
   border-radius: 15px;
-  border-bottom: 1px solid ;
+  /* border-bottom: 1px solid #DB5AA7; */
   margin-top:5%;
+  padding-left: 10px ;
+}
+
+ input[type=text]:focus
+ input[type=text]:active {
+  border: 3px solid rgb(63, 235, 6);
 }
 
 label{
@@ -127,31 +134,34 @@ label{
 textarea{
     margin-left:2%;
 }
-button{
+.btn_submit{
     margin-top:10px;
     margin-left: 500px;
+    cursor:pointer;
 }
+.btn_submit:hover{
+    color:white;
+}
+
 
 .contactForm .formBox .inputBox textarea {
   height: 120px;
-  width: 209%;
+  width: 233%;
 }
 
 legend{
     font-family: var(--Montserrat_700_font);
     font-style: normal;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 30px;
     text-align: center;
     color:var(--icontxt_color);
-    margin-top:1%;
-    margin-bottom: 5%;
-    margin:5% 58%;
+    margin:4% 58%;
 }
 
 .container_carte {
-    background-color: rgb(187, 255, 127);
+    /* background-color: rgb(187, 255, 127); */
     display: flex;
     margin: 7% 5% 10% 10%;
 }
@@ -160,11 +170,11 @@ legend{
     font-family: var(--Montserrat_700_font);
     font-style: normal;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 1.5;
     text-align: center;
     color: var(--icontxt_color);
-    margin: 2% 68%;
+    margin: 18px 68%;
     /* background-color: orangered; */
     letter-spacing: 2px;
     min-width: max-content;
@@ -173,4 +183,22 @@ legend{
 .carte_google {
     /* justify-content: space-between;
     align-items: center; */
+}
+
+.btn_submit{
+     display: inline;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background: var(--icontxt_color);
+    border-radius: 30px;
+    width: 211px;
+    height: 44px;
+    font-size: 18px;
+    font-family: var(--Montserrat_400_font);
+    margin-left:310px;
+    margin-top:25px;
+    -webkit-box-shadow: 2px 4px 7px 2px rgba(0, 0, 0, 0.71);
+    box-shadow: 2px 4px 7px 2px rgba(0, 0, 0, 0.71);
 }

@@ -1,0 +1,69 @@
+.container_principal{
+    display: block;
+    width: 100%;
+    height: 100%;
+    }
+  
+  .header_info{
+      width: 100%;
+      height: 90%;
+      display: flex;
+      flex-direction: row;
+      justify-content:space-around;
+      margin-top: 2%;
+      background-color: aquamarine;
+
+  }
+.right_img {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+    background-color: grey;
+    margin: 0px 10px;
+    }
+
+
+.image_right {
+    align-items: center;
+    width: 100px;
+    object-fit: cover;
+    
+}
+.title_info{
+    font-size: 38px;
+    font-family: var(--Montserrat_400_font);
+    color:var(--icontxt_color)
+}
+
+.title_txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trait_sepa{
+    border-top: 5px solid red;
+    width: 50%;
+    margin-top: 5%;
+}
+
+.des_quisuisje{
+    display: block;
+    flex-direction: column;
+    font-size: 28px;
+    margin:5% 10px;
+    background-color: green;
+}
+.formation_list{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin-top: 15%;
+   width: 100%;
+   background: rgb(214, 118, 118);
+}
+.content_formation{
+    width: 100%;
+    background-color: aqua;
+}

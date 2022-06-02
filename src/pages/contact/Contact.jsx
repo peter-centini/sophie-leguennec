@@ -31,7 +31,7 @@ function Contact() {
       <div className="container_contact_carte">
         <div className="contactForm">
           <form
-            action="https://formsubmit.co/   petermoto@free.fr"
+            action="https://formsubmit.co/petermoto@free.fr"
             method="POST"
           >
             <legend>Formulaire</legend>
@@ -42,7 +42,6 @@ function Contact() {
                 <input
                   type="text"
                   name="firstName"
-                  className="input_left"
                   placeholder="Votre Nom"
                   required
                   maxLength={30}
@@ -54,7 +53,6 @@ function Contact() {
                 <input
                   type="text"
                   name="lastName"
-                  className="input_left"
                   placeholder="Votre Prénom"
                   required
                   maxLength={30}
@@ -69,7 +67,6 @@ function Contact() {
                 <input
                   type="txt"
                   name="phone"
-                  className="input_div_right"
                   placeholder="Ex: 01 02 03 04 05"
                   required
                   maxLength={20}
@@ -81,11 +78,10 @@ function Contact() {
                 <input
                   type="email"
                   name="email"
-                  className="input_div_right"
                   placeholder="Votre Adresse Email"
                   maxLength={20}
                   required
-                />{" "}
+                />
               </div>
 
               <br />
@@ -117,7 +113,7 @@ function Contact() {
           <iframe
             className="carte_google"
             title="This is a unique title"
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1380.1740414014628!2d-0.9224137487887996!3d46.22342219098342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1652196080256!5m2!1sfr!2sfr"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2647.9041557783053!2d-0.9235151418356929!3d46.22339776560022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4806cac1c7f13349%3A0xd1ca86a766bd33c7!2s5%20Rue%20du%20Four%20%C3%A0%20Chaux%2C%2017540%20Nuaill%C3%A9-d&#39;Aunis!5e0!3m2!1sfr!2sfr!4v1652804432750!5m2!1sfr!2sfr"
             width="600"
             height="460"
             allowfullscreen=""
@@ -131,3 +127,4 @@ function Contact() {
 }
 
 export default Contact;
+
