@@ -22,4 +22,4 @@ URL : [http://localhost:3000](http://localhost:3000)
 ### <p align="center"> screen du projet</p>
 
 <p align="center">
-<img src="https://github.com/peter-centini/sophie-leguennec/screen.png" width="350" title="portfolio img"></p>
+<img src="https://github.com/peter-centini/sophie-leguennec/screen.png" width="350" title="screen du projet"></p>
