@@ -42,7 +42,7 @@ function Navbar() {
               Accueil
             </NavLink>
           </div>
-          <div className="navbar_item">
+          <div className="navbar_item ">
             <NavLink
               to="/mission"
               activeClassName="active"

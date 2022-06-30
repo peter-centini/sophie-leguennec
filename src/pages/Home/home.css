@@ -152,9 +152,9 @@
 /* #btn_contact_home:hover{
     color:black;
 } */
-.btn_contact:hover{
+/* .btn_contact:hover{
     transform: translate(-6px, -6px);
-}
+} */
 
 @media screen and (max-width: 768px) {
     .img {

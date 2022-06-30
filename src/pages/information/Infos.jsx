@@ -14,17 +14,31 @@ export default function Infos() {
         <p className="des_quisuisje">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta
           dolorem natus adipisci, in quasi accusantium laudantium? Dolore iste
-          esse libero.
+          esse libero Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut optio reiciendis laboriosam atque sed? Error sit corrupti eius fugit provident assumenda nam magnam quo iste id, asperiores omnis pariatur aperiam.
+          Officia eum similique rem voluptatibus recusandae corrupti est doloribus praesentium, ipsam aliquam adipisci modi necessitatibus suscipit quasi unde. Corrupti laboriosam quaerat quis eveniet voluptatem perspiciatis culpa ullam aliquid eum voluptatum?
+          Voluptatem dolore cupiditate rem dolor labore fugiat doloribus natus, similique omnis eius minima nemo placeat ipsam incidunt esse non fuga, suscipit voluptatibus consequatur, ullam quibusdam libero voluptate? Provident, molestiae iure.
         </p>
       </div>
   </div>
 
       <div className="formation_list">
+         <h2 className="title_formation">Mes Formation</h2>
         <div className="content_formation">
-        <h2 className="title_formatin">Mes Formation</h2>
-        <ul className="li">formation 1</ul>
-        <ul className="li">formation 2</ul>
-        <ul className="li">formation 3</ul>
+          {/* <div className="formation_detail"> */}
+            <div className="formule_1">
+          <h1 className="form1">formation 1</h1>
+              <p className="contenue">teste</p>  
+             
+            </div>
+            <div className="formule_2">
+              <h1 className="form2">formation 2</h1>
+             <p className="contenue">teste</p> 
+            </div>
+            <div className="formule_3">
+            <h1 className="form3">formation 3</h1>
+              <p className="contenue">teste</p>
+            </div>
+          {/* </div> */}
        </div>
       </div>
     </div>

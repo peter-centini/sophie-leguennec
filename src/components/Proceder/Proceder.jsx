@@ -80,9 +80,11 @@ function Proceder() {
           </p>
         </div>
       </div>
-      <button className="contact_me">
+      <div className="contact_me">
+      <button className="contact_me_process">
         <Link to="/contact">Me Contacter</Link>
-      </button>
+        </button>
+      </div>
     </div>
   );
 }
