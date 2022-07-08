@@ -47,7 +47,7 @@
 }
 
 .trait_sepa {
-    border-top: 5px solid red;
+    border-top: 5px solid var(--icontxt_color);
     width: 50%;
     margin-top: 5%;
 }
@@ -66,10 +66,10 @@
     flex-direction: row;
     justify-content: start;
     /* background-color: blueviolet; */
-    margin-left: 20px;
-    font-size: 30px;
-    font-family: var(--Montserrat_400_font);
-    margin-top: 30px
+    margin-left: 30px;
+    font-size: 35px;
+    font-family: var(--Montserrat_700_font);
+    margin-top: 30px;
 }
 
 .list_diplome {
@@ -145,7 +145,7 @@
 .trait {
     content: "";
     border-bottom: 3px solid;
-    width: 329px;
+    width: 319px;
     margin-top: 18px;
     margin-bottom: 20px;
     margin-left: 54px;
@@ -156,6 +156,7 @@
     font-family: var(--Montserrat_400_font);
     text-align: center;
     text-justify: auto;
+    margin-top: 30px;
 }
 
 .detail_forfait{
@@ -164,6 +165,7 @@ flex-direction: row;
 margin-top: 20px;
 justify-content: space-around;
 flex-wrap: wrap;
+margin-top: 40px;
 
 }
 .heure{

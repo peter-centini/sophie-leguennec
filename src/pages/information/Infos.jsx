@@ -78,8 +78,10 @@ export default function Infos() {
             <div className="trait"></div>
             <p className="contenue">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, nobis nihil. Quisquam, consectetur soluta. Ullam sint, ab nobis dignissimos exercitationem, mollitia fuga illo velit soluta aperiam odio odit, rerum minima!
             Pariatur, ducimus.</p>
-            <p className="contenue">teste</p>
-            <p className="contenue">teste</p>
+             <div className="detail_forfait">
+              <div className="heure">A L'HEURE </div>
+            <div className="au_forfait">AU FORFAIT (10 SCÉANCE)</div>
+            </div>
           </div>
 
           <div className="formule_3">
@@ -87,8 +89,10 @@ export default function Infos() {
             <div className="trait"></div>
             <p className="contenue">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, nobis nihil. Quisquam, consectetur soluta. Ullam sint, ab nobis dignissimos exercitationem, mollitia fuga illo velit soluta aperiam odio odit, rerum minima!
             Pariatur, ducimus.</p>
-            <p className="contenue">teste</p>
-            <p className="contenue">teste</p>
+            <div className="detail_forfait">
+              <div className="heure">A L'HEURE </div>
+            <div className="au_forfait">AU FORFAIT (10 SCÉANCE)</div>
+            </div>
           </div>
         </div>
       </div>
