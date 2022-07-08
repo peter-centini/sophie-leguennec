@@ -152,11 +152,11 @@
   }
 
   .navbar_links:hover {
-    color: var(--fourth_color);
+    color: var(--icontxt_color);
   }
 
   .navbar_item .active {
-    color: var(--fourth_color);
+    color: var(--icontxt_color);
   }
 
   .BurgerMenu__container {
@@ -249,11 +249,11 @@
   }
 
   .navbar_links:hover {
-    color: var(--second_color);
+    color: var(--icontxt_color);
   }
 
   .navbar_item .active {
-    color: var(--second_color);
+    color: var(--icontxt_color);
   }
 
   .BurgerMenu__container {
