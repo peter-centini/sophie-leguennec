@@ -93,12 +93,14 @@
     margin: 5px 0px 0px 30px;
     font-size: 30px;
     font-family: var(--Montserrat_400_font);
+    margin-left: 50px;
 }
 
 .img_diplo {
     width: 50px;
     height: 50px;
-    padding-left: 10px;
+    /* padding-left: 10px; */
+    margin-left: 50px;
 }
 
 .formule_list {
@@ -120,20 +122,24 @@
 }
 
 .content_formule {
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     flex-direction: row;
     align-items: start;
     display: flex;
     justify-content: space-around;
     margin: 100px;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .formule_1, .formule_2, .formule_3 {
     margin-left: 30px;
     margin-bottom: 40px;
     text-align: center;
+    border: 1px;
+    border-radius: 10%;
+    /* background-color: green; */
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;;
 }
 
 .form1, .form2, .form3 {
@@ -148,7 +154,8 @@
     width: 319px;
     margin-top: 18px;
     margin-bottom: 20px;
-    margin-left: 54px;
+    margin-left: 55px; 
+    /* margin: auto; */
 }
 
 .contenue {

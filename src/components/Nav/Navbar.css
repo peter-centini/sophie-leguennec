@@ -22,7 +22,7 @@
   top: -28px;
 }
 
-.phone_svg {}
+
 
 .phone {
   display: flex;
@@ -40,6 +40,13 @@
   justify-content: space-between;
   font-size: 0.9rem;
   margin-right: 5px;
+}
+.phonetext{
+margin-left:4px;
+}
+
+.mailtext{
+margin-left:4px;
 }
 
 .phonetext, .mailtext {
