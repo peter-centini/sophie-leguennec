@@ -115,7 +115,7 @@
 }
 
 .title_formule {
-    margin-top: 30px;
+    margin-top: 80px;
     font-size: 35px;
     font-family: var(--Montserrat_700_font);
     line-height: 1.5em;
@@ -146,6 +146,7 @@
     font-size: 35px;
     font-family: var(--Montserrat_700_font);
     text-align: center;
+    color: black;
 }
 
 .trait {
@@ -155,6 +156,7 @@
     margin-top: 18px;
     margin-bottom: 20px;
     margin-left: 55px; 
+    color: var(--icontxt_color);
     /* margin: auto; */
 }
 
@@ -162,8 +164,11 @@
     font-size: 20px;
     font-family: var(--Montserrat_400_font);
     text-align: center;
-    text-justify: auto;
+    text-justify: inter-ideograph;
     margin-top: 30px;
+    width: 100%;
+    height: 100%;
+    line-height: 2.2rem;
 }
 
 .detail_forfait{
@@ -172,7 +177,8 @@ flex-direction: row;
 margin-top: 20px;
 justify-content: space-around;
 flex-wrap: wrap;
-margin-top: 40px;
+margin-top: 60px;
+margin-bottom: 30px;
 
 }
 .heure{
