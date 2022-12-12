@@ -112,7 +112,7 @@ margin-left:4px;
   color: var(--grey_color);
 }
 
-@media screen and (min-width:768px) and (max-width:1023px) {
+@media screen and (max-width:767px)  {
   .phone {
     display: none;
   }
@@ -168,7 +168,7 @@ margin-left:4px;
     display: flex;
     flex-direction: column;
     padding-right: 8px;
-    margin-right: -108px;
+    margin-right: 10px;
   }
 
   i {
@@ -240,10 +240,12 @@ margin-left:4px;
 
   .navbar_menu.active {
     background: var(--white_color);
-    left: 0px;
+    /* left: 0px; */
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
+    width: 40%;
+    margin: -2px 30%;
   }
 
   .navbar_links {
@@ -264,7 +266,7 @@ margin-left:4px;
   .BurgerMenu__container {
     display: flex;
     flex-direction: column;
-    margin-right: -200px;
+    margin-right: 10px;
   }
 
   i {
