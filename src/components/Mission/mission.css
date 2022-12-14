@@ -22,7 +22,7 @@
     text-align: center;
 }
 
-.trait_dessous {
+.trait_dessous_mission {
     border-top: 2px solid var(--icontxt_color);
     width: 500px;
     margin: 50px 50px;
@@ -114,6 +114,76 @@
     height: 44px;
     margin: 10px 10px;
 }
- #send_me_contacter:hover{
+
+#send_me_contacter:hover {
     color: white;
+}
+
+
+@media screen and (max-width: 767px) {
+    .titlte_mission {
+        font-size: 35px;
+    }
+
+    .trait_dessous_mission {
+        border-top: 2px solid var(--icontxt_color);
+        width: 500px;
+        box-shadow: 1px 2px 8px 1px rgb(0 0 0 / 71%);
+        margin: -11px 0px 0px 0px;
+    }
+
+    .mission {
+        width: 80%;
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .image {
+        width: 90%;
+        height: 80%;
+        border-radius: 7px;
+        margin: 50px 35px;
+        margin-top: 18px;
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+
+    .texte_centrer {
+        position: absolute;
+        top: 42%;
+        left: 50%;
+        font-size: 17px;
+        transform: translate(-50%, -50%);
+        font-family: var(--Montserrat_700_font);
+        font-weight: bold;
+        line-height: 33px;
+    }
+
+    .signature {
+        position: absolute;
+        top: 81%;
+        left: 79%;
+        font-size: 18px;
+    }
+
+    .btn_double {
+        width: 50%;
+        margin: 0px 0px;
+    }
+
+    .btn_process, .btn_message {
+        font-size: 12px;
+        width: 211px;
+        height: 44px;
+        margin: 10px 10px;
+    }
+
+    #send_me_contacter:hover {
+        color: white;
+    }
 }

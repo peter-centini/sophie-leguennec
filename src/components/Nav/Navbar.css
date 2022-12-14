@@ -147,6 +147,8 @@ margin-left:4px;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
+    width: 40%; /*modifier pas tester*/
+    margin: -2px 30%; /*modifier pas tester*/
   }
 
   .navbar_links {

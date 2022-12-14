@@ -12,7 +12,7 @@ export default function Home() {
       </div>
       <div className="desc">
         <h1 className="title">Je vous accompagne</h1>
-        <div className="trait_dessous"></div>
+        <div className="trait_dessous_home"></div>
       </div>
       <div className="text_desc">
         <p className="text_Home">

@@ -8,7 +8,7 @@ export default function Mission() {
     <div className="container_maMission">
       <div className="mamission_desc">
         <p className="titlte_mission">Ma Mission</p>
-        <div className="trait_dessous"></div>
+        <div className="trait_dessous_mission"></div>
         <div className="mission">
           <div className="mission_text_1">
             <p className="textMission">
